@@ -79,8 +79,7 @@ paste the data of 2007-2008 files from [SEC FTD](https://www.sec.gov/data/foiado
 these two scripts will parse the data accordingly.
    ```bash
    python scripts/parseftd.py
-    ```bash
-    python scripts/convert_text_csv.py
+   python scripts/convert_text_csv.py
 2. **Analyze Data**
 This script loads and analyzes the data, performing correlation and regression analysis.
     ```bash
