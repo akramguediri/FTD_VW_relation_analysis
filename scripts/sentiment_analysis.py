@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load articles
-with open('data/news_articles.json', 'r') as f:
+with open('../data/news_articles.json', 'r') as f:
     articles = json.load(f)
 
 # Extract sentiment
