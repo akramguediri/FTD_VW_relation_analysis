@@ -71,11 +71,16 @@ The data used in this project includes:
 - News Articles: News articles related to Volkswagen.
 
 ## Running the Scripts
-1. **Download Data**
+1. **Download and Parse Data**
 This script downloads the required datasets and saves them into the data/ directory.
     ```bash
     python scripts/download_data.py
-
+paste the data of 2007-2008 files from [SEC FTD](https://www.sec.gov/data/foiadocsfailsdatahtm) in the data folder (use curl)
+these two scripts will parse the data accordingly.
+   ```bash
+   python scripts/parseftd.py
+    ```bash
+    python scripts/convert_text_csv.py
 2. **Analyze Data**
 This script loads and analyzes the data, performing correlation and regression analysis.
     ```bash
