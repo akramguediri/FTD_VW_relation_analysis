@@ -29,18 +29,18 @@ This project aims to analyze the impact of short selling on Volkswagen stock and
 
 ## Project Structure
 
-financial_analysis/
-├── data/
-│ ├── volkswagen_stock_prices.csv
-│ ├── ftd_data.csv
-│ ├── sp500_index.csv
-│ └── news_articles.json
-├── scripts/
-│ ├── download_data.py
-│ ├── analyze_data.py
-│ └── sentiment_analysis.py
-├── requirements.txt
-└── README.md
+financial_analysis/<br>
+├── data/<br>
+│ ├── volkswagen_stock_prices.csv<br>
+│ ├── ftd_data.csv<br>
+│ ├── sp500_index.csv<br>
+│ └── news_articles.json<br>
+├── scripts/<br>
+│ ├── download_data.py<br>
+│ ├── analyze_data.py<br>
+│ └── sentiment_analysis.py<br>
+├── requirements.txt<br>
+└── README.md<br>
 
 - **data/**: Directory to store all datasets.
 - **scripts/**: Directory containing Python scripts for data download, analysis, and sentiment analysis.
