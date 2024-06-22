@@ -14,11 +14,11 @@ vw_stock.to_csv('data/volkswagen_stock_prices.csv')
 sp500 = yf.download("^GSPC", start="2007-01-01", end="2009-01-01")
 sp500.to_csv('data/sp500_index.csv')
 
-# News API parameters
-api_key = 'your_api_key'
+# News API parameters 
+api_key = 'apikey' #*** removed for privacy reasons, please add your own***
 query = 'Volkswagen'
-from_date = '2007-01-01'
-to_date = '2009-01-01'
+from_date = '2024-05-22'
+to_date = '2009-06-21'
 
 # Fetch news articles
 url = f'https://newsapi.org/v2/everything?q={query}&from={from_date}&to={to_date}&apiKey={api_key}'
