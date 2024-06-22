@@ -1,0 +1,7 @@
+yfinance
+requests
+pandas
+matplotlib
+seaborn
+statsmodels
+textblob
