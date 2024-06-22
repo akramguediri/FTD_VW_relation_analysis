@@ -31,6 +31,8 @@ This project aims to analyze the impact of short selling on Volkswagen stock and
 
 financial_analysis/<br>
 ├── data/<br>
+├─├──FTDs/<br>
+├─├──├─cnsp_sec_fails_200{701..812}.txt/<br>
 │ ├── volkswagen_stock_prices.csv<br>
 │ ├── ftd_data.csv<br>
 │ ├── sp500_index.csv<br>
