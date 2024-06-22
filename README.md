@@ -80,7 +80,8 @@ these two scripts will parse the data accordingly.
 
    ```bash
    python scripts/parseftd.py
-   python scripts/convert_text_csv.py```
+   python scripts/convert_text_csv.py
+   ```
 
 2. **Analyze Data**
 This script loads and analyzes the data, performing correlation and regression analysis.
